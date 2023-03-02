@@ -8,10 +8,9 @@ h1 {
     text-align: center;
     font-size: 5px;
   }
-.banner{
-    position:absolute;
-    top: 40px;
+.wrap{
     width: 100%;
+    margin: 0 auto;
   }
 #navbar {
     position: fixed;
