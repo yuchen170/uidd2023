@@ -1,9 +1,14 @@
+html {
+    background-color: #1D2A52;
+  }
+
 h1 {
     font-family: system-ui;
     color: white;
     text-align: center;
+    font-size: 5px;
   }
-  #navbar {
+#navbar {
     position: fixed;
     width: 100%;
     top: 0;
@@ -11,29 +16,7 @@ h1 {
     background-color: #946232;
     color: white;
     font-family: 'Exo 2', sans-serif;
-    padding: 1em;
-  }
-  .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
-html {
-    background-color: #1D2A52;
-  }
-/*
-  .navbar {
-    background-color: #946232;
-    height: 50px;
-  }
-  */
-  .banner {
-    background-color: #1D2A52;
-    height: 200px;
-    position: fixed
+    padding: 0.5em;
   }
 
-  .logo {
-    float: center;
-  }
+
