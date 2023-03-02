@@ -4,15 +4,26 @@ h1 {
     text-align: center;
   }
 
-  html {
-    background-color: #1D2A52;
+  header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #946232;
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+    padding: 1em;
   }
 
+html {
+    background-color: #1D2A52;
+  }
+/*
   .navbar {
     background-color: #946232;
     height: 50px;
   }
-  
+  */
   .banner {
     background-color: #1D2A52;
     height: 200px;
