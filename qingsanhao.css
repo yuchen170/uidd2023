@@ -12,7 +12,7 @@ h1 {
     background-color: #946232;
     color: white;
     font-family: 'Exo 2', sans-serif;
-    padding: 25px;
+    padding: 2px;
   }
 
 html {
@@ -27,35 +27,9 @@ html {
   .banner {
     background-color: #1D2A52;
     height: 200px;
+    position: fixed
   }
 
-  .container {
-    width: 1024px;
-    margin: 0 auto;
-  }
-  
   .logo {
     float: center;
-  }
-  
-  .menu {
-    float: right;
-  }
-  
-  .menu li {
-    float: left;
-  }
-  
-  .menu a {
-    display: flex;
-    margin-right: 10px;
-    color: #ffc078;
-    text-decoration: none;
-    line-height: 50px;
-    padding: 0 1em;
-  }
-  
-  .menu a:hover {
-    background-color: #ffc078;
-    color: #333;
   }
