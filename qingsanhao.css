@@ -3,8 +3,7 @@ h1 {
     color: white;
     text-align: center;
   }
-
-  header {
+  #navbar {
     position: fixed;
     width: 100%;
     top: 0;
@@ -12,7 +11,7 @@ h1 {
     background-color: #946232;
     color: white;
     font-family: 'Exo 2', sans-serif;
-    padding: 2px;
+    padding: 1em;
   }
   .center {
     display: block;
