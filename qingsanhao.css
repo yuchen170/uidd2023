@@ -9,13 +9,18 @@ h1 {
     height: 50px;
   }
   
+  .banner {
+    background-color: #1D2A52;
+    height: 200px;
+  }
+
   .container {
     width: 1024px;
     margin: 0 auto;
   }
   
   .logo {
-    display: inline;
+    float: center;
   }
   
   .menu {
