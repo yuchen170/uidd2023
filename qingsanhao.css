@@ -18,5 +18,8 @@ h1 {
     font-family: 'Exo 2', sans-serif;
     padding: 0.5em;
   }
+#logo {
+    text-align: center;
+}
 
 
