@@ -4,6 +4,10 @@ h1 {
     text-align: center;
   }
 
+  html {
+    background-color: #1D2A52;
+  }
+
   .navbar {
     background-color: #946232;
     height: 50px;
