@@ -26,11 +26,10 @@ h1 {
     text-align: center;
     position:relative;
     top: 40px;
-    background-color: #555555;
 }
 #main {
     width: 100%;
-    text-align: center;
+    left: 0;
     margin-top: 40px;
 }
 
