@@ -42,9 +42,10 @@ h1 {
   布局樣式
   ===================================*/
   .menu {
-  max-width: 300px;
+  max-width: 200px;
   margin: 0 auto;
   list-style-type: none;
+  right: 0%
   }
   
   /* ===================================
