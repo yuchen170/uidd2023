@@ -46,7 +46,7 @@ h1 {
   max-width: 200px;
   margin: 0 auto;
   list-style-type: none;
-  top: 40px;
+  top: 68px;
   left: 35%;
   z-index: 3;
   }
@@ -140,6 +140,8 @@ h1 {
 
 #main {
     margin-top: 40px;
+    position: relative;
+    top: 60px;
 }
 
 
