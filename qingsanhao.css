@@ -1,7 +1,9 @@
 html {
     background-color: #1D2A52;
   }
-
+body {
+    margin: 0;
+}
 h1 {
     font-family: SimSun;
     color: white;
