@@ -25,9 +25,8 @@ h1 {
   }
 
 #logo {
-    position:absolute;
-    left: 50%;
-    transform: translateX(-50%);
+    text-align: center;
+    position:relative;
     top: 40px;
     z-index: 1;
 }
