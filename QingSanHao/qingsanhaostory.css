@@ -4,8 +4,7 @@ html{
 
 #main {
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 40%;
     left: 50%;
     transform: translateX(-50%);
 }
