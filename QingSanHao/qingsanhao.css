@@ -42,12 +42,13 @@ h1 {
   布局樣式
   ===================================*/
   .menu {
-  position: absolute;
+  position: relative;
   max-width: 200px;
   margin: 0 auto;
   list-style-type: none;
   top: 40px;
-  right: 10px;
+  left: 35%;
+  z-index: 3;
   }
   
   /* ===================================
@@ -88,6 +89,8 @@ h1 {
   width: 100%;
   padding: 10px;
   border: 1px solid #ddd;
+  color: #ddd;
+  background-color: #1D2A52;
   }
   
   .item:hover {
@@ -128,9 +131,10 @@ h1 {
 
 
 #logo {
-    text-align: center;
-    position:relative;
+    position:absolute;
     top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
     z-index: 1;
 }
 
