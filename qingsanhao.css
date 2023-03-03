@@ -1,6 +1,5 @@
 html {
     background-color: #1D2A52;
-    margin: 0;
   }
 
 h1 {
@@ -11,7 +10,7 @@ h1 {
   }
 .wrap{
     width: 100%;
-    margin: 0 auto;
+    margin: 0;
   }
 #navbar {
     position: fixed;
