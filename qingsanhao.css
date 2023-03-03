@@ -7,7 +7,9 @@ body {
 h1 {
     font-family: SimSun;
     color: white;
-    text-align: center;
+    /*text-align: center;*/
+    left: 50%;
+    transform: translateX(-50%);
     font-size: 5px;
   }
 .wrap{
