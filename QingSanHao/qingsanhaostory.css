@@ -14,7 +14,7 @@ html{
   align-items: center;
   justify-content: space-around;
   overflow: hidden;
-  width: 29%;
+  width: 325px;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
