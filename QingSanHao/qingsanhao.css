@@ -121,10 +121,11 @@ h1 {
 }
 
 #arrow {
-  max-width: 100%;
+  max-width: 95%;
   position:fixed;
   z-index: 5;
-  top: 6px;
+  top: 7px;
+  margin-left: 2.5%;
 }
 
 #main {
