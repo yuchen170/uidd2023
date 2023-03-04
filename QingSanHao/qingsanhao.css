@@ -127,9 +127,10 @@ h1 {
     z-index: 1;
 }
 #arrow {
+  max-width: 100%;
   position:absolute;
   z-index: 5;
-  top: 0;
+  top: 5px;
 }
 #main {
     margin-top: 40px;
