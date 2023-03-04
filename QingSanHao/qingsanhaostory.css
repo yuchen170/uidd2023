@@ -7,9 +7,11 @@ html{
     top: 40%;
     left: 50%;
     transform: translateX(-50%);
+    opacity: 0;
+    visibility: hidden;
 }
 
-#dot {
+#threedots {
     display: flex;
   align-items: center;
   justify-content: space-around;
@@ -18,11 +20,15 @@ html{
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+  height: 60%;
 }
+
 
 .dot {
     display: block;
       display: flex;
     align-items: center;
     justify-content: center;
+    opacity: 0;
+    visibility: hidden;
   }
