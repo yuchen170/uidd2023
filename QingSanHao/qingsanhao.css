@@ -126,7 +126,10 @@ h1 {
     transform: translateX(-50%);
     z-index: 1;
 }
-
+#arrow {
+  position:absolute;
+  top: 0;
+}
 #main {
     margin-top: 40px;
     position: relative;
