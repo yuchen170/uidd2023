@@ -24,10 +24,6 @@ h1 {
     z-index: 4;
   }
 
-  /* ===================================
-版型
-===================================*/
-
   ul {
   padding: 0;
   }
@@ -38,9 +34,6 @@ h1 {
   color: #666;
   }
   
-  /* ===================================
-  布局樣式
-  ===================================*/
   .menu {
   position: relative;
   max-width: 200px;
@@ -126,12 +119,14 @@ h1 {
     transform: translateX(-50%);
     z-index: 1;
 }
+
 #arrow {
   max-width: 100%;
-  position:absolute;
+  position:fixed;
   z-index: 5;
-  top: 5px;
+  top: 6px;
 }
+
 #main {
     margin-top: 40px;
     position: relative;
