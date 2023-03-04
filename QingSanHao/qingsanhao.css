@@ -124,11 +124,11 @@ h1 {
     top: 40px;
     left: 50%;
     transform: translateX(-50%);
-    z-index: 5;
+    z-index: 1;
 }
 #arrow {
   position:absolute;
-  z-index: index;
+  z-index: 5;
   top: 0;
 }
 #main {
