@@ -8,3 +8,19 @@ html{
     left: 50%;
     transform: translateX(-50%);
 }
+
+#dot {
+    display: flex;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}
+
+.dot {
+    display: block;
+      display: flex;
+    align-items: center;
+    justify-content: center;
+  }
