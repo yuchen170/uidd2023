@@ -1,3 +1,4 @@
+import { gsap } from "gsap";
 let tl = gsap.timeline({})
 
 .to(".first", { y: 100 })
