@@ -13,9 +13,11 @@ html{
     display: flex;
   align-items: center;
   justify-content: space-around;
-  min-height: 100vh;
-  margin: 0;
   overflow: hidden;
+  width: 29%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .dot {

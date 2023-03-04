@@ -1,5 +1,5 @@
 let tl = gsap.timeline({})
 
-t1.to(".first", { rotation: 360 });
-t1.to(".second", { rotation: 360 });
-t1.to(".third", { rotation: 360 });
+.to(".first", { y: 100 })
+.to(".second", { y: 100 })
+.to(".third", { y: 100 });
