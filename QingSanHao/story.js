@@ -6,7 +6,7 @@ gsap.config({
 document.addEventListener("DOMContentLoaded",function(){
     
     var loading=new TimelineMax();
-    loading.fromTo("#main",1.5,{
+    loading.fromTo("#pic",1.5,{
         autoAlpha: 0,
         y:0
     },{
@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded",function(){
         autoAlpha: 1,
         y:20
     })
-    .fromTo("#main",1.5,{
+    .fromTo("#pic",1.5,{
         autoAlpha: 1,
         y:20
     },{
