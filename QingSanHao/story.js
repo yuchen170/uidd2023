@@ -1,3 +1,6 @@
+gsap.config({
+    nullTargetWarn: false
+});
 let tl = gsap.timeline({})
 
 .to(".first", { y: 100 })
