@@ -99,7 +99,7 @@ document.addEventListener("DOMContentLoaded",function(){
         autoAlpha:1,
     },"=0.5")
     .fromTo("#logoBig",2,{
-        y:0,
+        
     },{
         y:-40,
         scale: 0.5
