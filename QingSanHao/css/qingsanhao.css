@@ -57,8 +57,8 @@ first slide
 
 #landing {
   position: absolute;
-  top: 40%;
-  left: 41.5%;
+  top: 40vh;
+  left: 39.5vw;
   opacity: 0;
   visibility: hidden;
 }
@@ -110,20 +110,21 @@ visibility: hidden;
 }
 #logoBig{
   position: absolute;
-  left: 38%;
-  top: 15%;
+  left: 39vw;
+  top: 10vh;
+  width: 20em;
 }
 #arrow_down{
   position: absolute;
-  left: 49.8%;
-  top: 70%;
+  left: 50vw;
+  top: 70vh;
 }
 /* menu
 
   ul {
   padding: 0;
   }
-  
+
   a {
   display: inline-block;
   text-decoration: none;
