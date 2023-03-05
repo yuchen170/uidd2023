@@ -6,14 +6,14 @@ h1 {
     font-family: SimSun;
     color: white;
     text-align: center;
-    font-size: 0.01vw;
+    font-size: 12px;
+    margin: 0;
   }
 .wrap{
     width: 100%;
     margin: 0;
   }
 #navbar {
-    /*position: fixed;*/
     width: 100%;
     top: 0;
     left: 0;
@@ -54,11 +54,14 @@ first slide
   height: 100vh;
 }
 
+.animation{
+  display: flex;
+  justify-content: center;
+}
 
 #landing {
   position: absolute;
   top: 40vh;
-  left: 39.5vw;
   opacity: 0;
   visibility: hidden;
 }
@@ -92,31 +95,26 @@ visibility: hidden;
 
 #outer{
   position: absolute;
-  left: 46.5vw;
   top: 29.5vh;
   width: 7em;
 }
 #inner{
   position: absolute;
-  left: 46.5vw;
   top: 29.5vh;
   width: 7em;
 }
 #finger{
   position: absolute;
-  left: 46.5vw;
   top: 29.5vh;
   width: 7em;
 }
 #logoBig{
   position: absolute;
-  left: 39vw;
   top: 10vh;
   width: 20em;
 }
 #arrow_down{
   position: absolute;
-  left: 50vw;
   top: 70vh;
 }
 /* menu
