@@ -13,14 +13,114 @@ h1 {
     margin: 0;
   }
 #navbar {
-    position: fixed;
+    /*position: fixed;*/
     width: 100%;
     top: 0;
     left: 0;
     background-color: #946232;
     padding: 0.5em;
     z-index: 4;
+    height: 12px;
   }
+  
+#logo {
+    position:relative;
+    top: 20px;
+    left: 47.5%;
+    
+    z-index: 1;
+}
+
+#arrow {
+  max-width: 95%;
+  position:relative;
+  z-index: 5;
+  top: -15px;
+  margin-left: 2.5%;
+}
+
+#main {
+    margin-top: 20px;
+    position: relative;
+    top:0;
+}
+
+
+/*
+first slide
+*/
+.section{
+  width: 100%;
+  height: 100vh;
+}
+
+
+#landing {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  visibility: hidden;
+}
+
+#threedots {
+  display: flex;
+align-items: center;
+justify-content: space-around;
+overflow: hidden;
+width: 325px;
+position: absolute;
+left: 50%;
+transform: translateX(-50%);
+height: 60%;
+}
+
+
+.center {
+  display: block;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.invisible{
+opacity: 0;
+visibility: hidden;
+}
+
+#outer{
+  position: absolute;
+  left: 46.5vw;
+  top: 29.5vh;
+  width: 7em;
+}
+#inner{
+  position: absolute;
+  left: 46.5vw;
+  top: 29.5vh;
+  width: 7em;
+}
+#finger{
+  position: absolute;
+  left: 46.5vw;
+  top: 29.5vh;
+  width: 7em;
+}
+#logoBig{
+  position: absolute;
+  left: 50.7%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+#arrow_down{
+  position: absolute;
+  left: 49.5%;
+  top: 70%;
+}
+/* menu
 
   ul {
   padding: 0;
@@ -109,27 +209,4 @@ h1 {
   overflow: visible;
   height: 30px;
   }
-  
-#logo {
-    position:absolute;
-    top: 40px;
-    left: 50%;
-    transform: translateX(-40%);
-    z-index: 1;
-}
-
-#arrow {
-  max-width: 95%;
-  position:fixed;
-  z-index: 5;
-  top: 7px;
-  margin-left: 2.5%;
-}
-
-#main {
-    margin-top: 40px;
-    position: relative;
-    top: 60px;
-}
-
-
+*/

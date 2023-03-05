@@ -24,7 +24,7 @@ html{
 }
 
 
-.dot {
+.center {
     display: block;
       display: flex;
     align-items: center;
@@ -32,3 +32,34 @@ html{
     opacity: 0;
     visibility: hidden;
   }
+
+.circle{
+  opacity: 0;
+  visibility: hidden;
+}
+
+  #outer{
+    position: absolute;
+    left: 46vw;
+    top: 29.5vh;
+    width: 7em;
+  }
+  #inner{
+    position: absolute;
+    left: 46vw;
+    top: 29.5vh;
+    width: 7em;
+  }
+  #finger{
+    position: absolute;
+    left: 46vw;
+    top: 29.5vh;
+    width: 7em;
+  }
+  #logoBig{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+  }
+  

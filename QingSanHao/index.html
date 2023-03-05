@@ -1,55 +1,90 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1" name="viewport">
-    <title>QING SAN HAO</title>
-    <link rel="stylesheet" type="text/css" href="qingsanhao.css">
-  </head>
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <title>QING SAN HAO</title>
+  <link rel="stylesheet" type="text/css" href="qingsanhao.css">
+  <link rel="stylesheet" type="text/css" href="fullpage.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
 
-  <body style="margin: 0px;">
-    <div class="wrap">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.18/fullpage.min.js"></script>
+  <script src="js/story.js"></script>
 
-      <div id="navbar">
-        <h1>癸卯年 叁月叁日</h1>
+
+</head>
+
+<body style="margin: 0px;">
+  <div id="fullpage">
+    <section class="section" id="slide1">
+      <div id="landing">
+        <img src="res/goodthing.png">
       </div>
+      <div id="threedots">
 
-      <div id="arrow">
-        <img src="./arrow.png" style="width: 100%">
+        <div class="center" id="first">
+          <img src="res/first_dot.png">
+        </div>
+        <div class="center" id="second">
+          <img src="res/snd_dot.png">
+        </div>
+        <div class="center" id="third">
+          <img src="res/trd_dot.png">
+        </div>
       </div>
+  
+      <img class="invisible" id="outer" src="res/circle_1.png">
+      <img class="invisible" id="inner" src="res/circle_2.png">
+      <img class="invisible" id="logoBig" src="res/logo.png">
+      <img class="invisible" id="finger" src="res/finger.png">
+      <img class="invisible" id="arrow_down" src="res/arrow_down.png">
 
-      <div id="menu">
-        <ul class="menu">
-          <li class="itembox drop-down">
-            <a class="item" href="#">ABOUT US</a>
-            <div class="submenu">
-              <a class="submenu-item" onclick="window.open('./story.html');">品牌故事</a>
-              <a class="submenu-item">分店資訊</a>
-              <a class="submenu-item">加盟資訊</a>
-            </div>
-          </li>
-          <li class="itembox drop-down">
-            <a  class="item" href="#">MENU</a>
-            <div class="submenu">
-              <a class="submenu-item">吐司</a>
-              <a class="submenu-item">沙拉堡</a>
-              <a class="submenu-item">醬拌麵</a>
-              <a class="submenu-item">酥脆蛋餅</a>
-            </div>
-          </li>
-        </ul>
-      </div>
+    </section>
+    <section class="section" id="slide2">
+      <div class="wrap">
 
-      <div id="logo">
-        <a href="https://www.facebook.com/profile.php?id=100063778343496" target="_blank" class="link1"><img src="./logo.png" style="width:100px;" ></a>
-      </div>
+        <div id="navbar">
+          <h1>癸卯年 叁月叁日</h1>
+          <img id="arrow" src="res/arrow.png" style="width: 100%">
+        </div>
 
-      <div id="main">
-        <img src="./L1_main.png" style="width: 100%">
+
+        <!--
+          <div id="menu">
+            <ul class="menu">
+              <li class="itembox drop-down">
+                <a class="item" href="#">ABOUT US</a>
+                <div class="submenu">
+                  <a class="submenu-item" onclick="window.open('./story.html');">品牌故事</a>
+                  <a class="submenu-item">分店資訊</a>
+                  <a class="submenu-item">加盟資訊</a>
+                </div>
+              </li>
+              <li class="itembox drop-down">
+                <a  class="item" href="#">MENU</a>
+                <div class="submenu">
+                  <a class="submenu-item">吐司</a>
+                  <a class="submenu-item">沙拉堡</a>
+                  <a class="submenu-item">醬拌麵</a>
+                  <a class="submenu-item">酥脆蛋餅</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+          -->
+        <a href="https://www.facebook.com/profile.php?id=100063778343496" target="_blank" id="logo"><img src="./logo.png"
+            style="width:100px;"></a>
+        <img src="res/L1_main_1.png" id="main" style="width: 100%">
       </div>
-      
-    </div>
-    
-  </body>
+    </section>
+  </div>
+  <script>
+    $(document).ready(function(){
+      $('#fullpage').fullpage();
+    })
+  </script>
+</body>
+
 </html>
