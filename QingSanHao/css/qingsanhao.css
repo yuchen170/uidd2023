@@ -24,10 +24,10 @@ h1 {
   }
   
 #logo {
+  width: 7vw;
     position:relative;
-    top: 20px;
+    top: 10px;
     left: 47.5%;
-    
     z-index: 1;
 }
 
@@ -60,7 +60,11 @@ first slide
 }
 
 #landing {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
   position: absolute;
+  width: 325px;
   top: 40vh;
   opacity: 0;
   visibility: hidden;
@@ -79,14 +83,6 @@ height: 60%;
 }
 
 
-.center {
-  display: block;
-    display: flex;
-  align-items: center;
-  justify-content: center;
-  opacity: 0;
-  visibility: hidden;
-}
 
 .invisible{
 opacity: 0;
@@ -109,7 +105,9 @@ visibility: hidden;
   width: 7em;
 }
 #logoBig{
+  display: flex;
   position: absolute;
+  align-items: center;
   top: 10vh;
   width: 20em;
 }

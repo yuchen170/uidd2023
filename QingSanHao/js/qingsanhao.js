@@ -5,34 +5,68 @@ gsap.config({
 document.addEventListener("DOMContentLoaded",function(){
     
     var loading=new TimelineMax();
-    loading.fromTo("#landing",1.5,{
+    loading.fromTo("#goodthing1",1.5,{
         autoAlpha: 0,
-        y:0
+        y: -20
     },{
-        autoAlpha: 1,
-        y:20
+        autoAlpha: 0.5,
+        y: 0,
+        stagger: 0.9
     })
+    .fromTo("#goodthing2",1.5,{
+        autoAlpha: 0,
+        y: -20
+    },{
+        autoAlpha: 0.5,
+        y: 0
+    },"=-1.5")
+    .fromTo("#goodthing3",1.5,{
+        autoAlpha: 0,
+        y: -20
+    },{
+        autoAlpha: 0.5,
+        y: 0
+    },"=-1.5")
     .fromTo("#first",1.5,{
         autoAlpha: 0,
         y:0
     },{
         autoAlpha: 1,
-        y:20
+        y:20,
+        ease: "bounce"
     })
+    .fromTo("#goodthing1",0.5,{
+
+    },{
+        opacity: 1,
+    },"=-1.5")
     .fromTo("#second",1.5,{
         autoAlpha: 0,
         y:0
     },{
         autoAlpha: 1,
-        y:20
+        y:20,
+        ease: 'bounce'
     })
+    .fromTo("#goodthing2",0.5,{
+
+    },{
+        autoAlpha: 1
+    },"=-1.5")
     .fromTo("#third",1.5,{
         autoAlpha: 0,
         y:0
     },{
         autoAlpha: 1,
-        y:20
+        y:20,
+        ease: 'bounce'
     })
+    .fromTo("#goodthing3",0.5,{
+
+    },{
+        autoAlpha: 1
+    },"=-1.5")
+
     .fromTo("#landing",1.5,{
         autoAlpha: 1,
         y:20
@@ -40,6 +74,7 @@ document.addEventListener("DOMContentLoaded",function(){
         autoAlpha: 0,
         y:40
     })
+    
     .fromTo("#first",1,{
         x:0
     },{
@@ -101,7 +136,6 @@ document.addEventListener("DOMContentLoaded",function(){
     .fromTo("#logoBig",2,{
         
     },{
-        y:-40,
         scale: 0.5
     })
     .fromTo("#arrow_down",1,{
