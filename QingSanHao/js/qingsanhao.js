@@ -32,8 +32,7 @@ document.addEventListener("DOMContentLoaded",function(){
         y:0
     },{
         autoAlpha: 1,
-        y:20,
-        ease: "bounce"
+        y:20
     })
     .fromTo("#goodthing1",0.5,{
 
@@ -45,8 +44,7 @@ document.addEventListener("DOMContentLoaded",function(){
         y:0
     },{
         autoAlpha: 1,
-        y:20,
-        ease: 'bounce'
+        y:20
     })
     .fromTo("#goodthing2",0.5,{
 
@@ -58,8 +56,7 @@ document.addEventListener("DOMContentLoaded",function(){
         y:0
     },{
         autoAlpha: 1,
-        y:20,
-        ease: 'bounce'
+        y:20
     })
     .fromTo("#goodthing3",0.5,{
 

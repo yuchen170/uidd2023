@@ -84,7 +84,7 @@ height: 60%;
 
 
 
-.invisible{
+.hidden{
 opacity: 0;
 visibility: hidden;
 }
@@ -109,7 +109,7 @@ visibility: hidden;
   position: absolute;
   align-items: center;
   top: 10vh;
-  width: 20em;
+  width: 50vh;
 }
 #arrow_down{
   position: absolute;
