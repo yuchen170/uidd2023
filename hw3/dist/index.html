@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Student ID System</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+</head>
+
+<body>
+  <!--List function-->
+  <form id="list">
+    <button type="submit">List all students</button>
+  </form>
+  <div id="list-output"></div>
+
+  <br>
+
+  <!--Search function-->
+  <form id="search">
+    Student ID: <input type="text" name="id_search"><br>
+    <button type="submit">Search specific student</button>
+  </form>
+  <div id="search-output"></div>
+
+  <br>
+  <!--Add function-->
+  <form id="add">
+    Student ID: <input type="text" name="id_add"><br>
+    Student name: <input type="text" name="name_add"><br>
+    <button type="submit">Add new student</button>
+  </form>
+  <div id="add-output"></div>
+
+  <br>
+
+  <!--Delete function-->
+  <form id="delete">
+    Student ID: <input type="text" name="id_delete"><br>
+    <button type="submit">Delete specific student</button>
+  </form>
+  <div id="delete-output"></div>
+
+  <br>
+
+  <p>
+    This student ID system has four main functions:
+    <br><br>
+    1. List: Formats the content of a "students.json" file as a list of key-value pairs and sends it as the response.
+    <br><br>
+    2. Search: Searches for a student ID in the "students.json" file. If found, sends a greeting message addressed to
+    the student; if not found, sends a message indicating that the student was not found.
+    <br><br>
+    3. Add: Checks if the provided student ID already exists in the "students.json" file. If it does, updates the
+    corresponding student's name with the provided name (unless the name input is empty), or sends an error message
+    indicating that the name is empty. If the ID does not exist, sends an error message indicating that the student ID
+    was not found.
+    <br><br>
+    4. Delete: Searches for a student ID in the "students.json" file. If found, deletes the corresponding student's
+    information; if not found, sends an error message indicating that the student was not found.
+  </p>
+
+
+  <script src="./main.js"></script>
+</body>
+
+</html>
