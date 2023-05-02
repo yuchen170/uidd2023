@@ -51,9 +51,18 @@ const SideBar = ({setSelectedOption}) => {
             },
           }),
         }}>
+          
           <MenuItem style={MenuItemStyle} onClick={() => handleOptionClick("all")}>
             <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
               <span style={{ marginRight: "10px" }}>所有商品</span>
+              <Arrow>
+                <Image src={arrow} alt="arrow icon" />
+              </Arrow>
+            </div>
+          </MenuItem>
+          <MenuItem style={MenuItemStyle} onClick={() => handleOptionClick("featured")}>
+            <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
+              <span style={{ marginRight: "10px" }}>精選商品</span>
               <Arrow>
                 <Image src={arrow} alt="arrow icon" />
               </Arrow>

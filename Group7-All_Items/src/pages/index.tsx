@@ -15,6 +15,8 @@ export const MainPage = () => {
 
   const getTitle = () => {
     switch (selectedOption) {
+      case 'featured':
+        return '精選商品';
       case 'electronics':
         return '電子產品';
       case 'vehicle':
@@ -42,7 +44,9 @@ export const MainPage = () => {
     let filtered = Data;
 
     switch (selectedOption) {
-
+      case 'featured':
+        filtered = filtered.filter(item => item.featured === 1);
+        break;
       case 'electronics':
         filtered = filtered.filter(item => item.type === 'electronics');
         break;
@@ -169,7 +173,6 @@ export const MainPage = () => {
 
 
             <ItemContainer>
-
               {filteredData().map(
                 (item) =>
                   item.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
