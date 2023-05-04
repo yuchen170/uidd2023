@@ -10,8 +10,7 @@ document.addEventListener("DOMContentLoaded",function(){
         y: -20
     },{
         autoAlpha: 0.5,
-        y: 0,
-        stagger: 0.9
+        y: 0
     })
     .fromTo("#goodthing2",1.5,{
         autoAlpha: 0,

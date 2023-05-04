@@ -14,7 +14,8 @@ export const TopContainer = styled.div`
 position: relative;
 top:0;
 margin-top:-20px;
-border-radius: 2%;
+border-top-left-radius: 2%;
+border-top-right-radius: 2%;
 background-color: #283EA3;
 height:250px;
 `
@@ -76,14 +77,14 @@ export const BottomWrap = styled.div`
     top: 15px;
     display: flex;
     justify-content: space-between;
-    margin:5px;
+    margin:10px;
     align-items: flex-end;
 `
 
 export const Text = styled.h1`
     position: relative;
     bottom: 0;
-    font-size: 14px;
+    font-size: 12px;
     text-align: left;
     color: black; 
 `;
@@ -92,6 +93,6 @@ export const Line = styled.div`
     height: 1px;
     background: black;
     width: 100px;
-    margin:5px;
+    margin:9px;
 `;
 

@@ -51,7 +51,6 @@ const SideBar = ({setSelectedOption}) => {
             },
           }),
         }}>
-          
           <MenuItem style={MenuItemStyle} onClick={() => handleOptionClick("all")}>
             <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
               <span style={{ marginRight: "10px" }}>所有商品</span>
@@ -68,6 +67,7 @@ const SideBar = ({setSelectedOption}) => {
               </Arrow>
             </div>
           </MenuItem>
+          
           <MenuItem style={MenuItemStyle} onClick={() => handleOptionClick("electronics")}>
             <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
               <span style={{ marginRight: "10px" }}>電子產品</span>

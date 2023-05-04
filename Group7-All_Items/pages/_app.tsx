@@ -6,6 +6,7 @@ import PacmanLoader from "react-spinners/PacmanLoader";
 import NavBar from "@/components/NavBar";
 import Footer from "@/components/Footer";
 import "@/styles/index.css";
+import { BrowserRouter } from "react-router-dom";
 
 const MyApp = ({ Component, pageProps }: AppProps) => {
     const [loading, setLoading] = useState(false);
@@ -27,6 +28,7 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
                 />
                 <title>SecRent</title>
             </Head>
+           
             {loading ? (
                 <PacmanLoader
                     color={"#283EA3"}

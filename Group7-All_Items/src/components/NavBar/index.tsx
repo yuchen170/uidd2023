@@ -15,7 +15,7 @@ const NavBar: FC = () => {
     return (
         <NavContainer id="navbar">
             <NavBtnList>
-                <NavItem href="#section-main" className="px-5" text="首頁" /></NavBtnList>
+                <NavItem href="/#section-main" className="px-5" text="首頁" /></NavBtnList>
             <button
                 className="navbar-toggler"
                 type="button"
@@ -34,10 +34,10 @@ const NavBar: FC = () => {
                 style={{ marginRight: 50 }}
             >
                 <NavBtnList>
-                    <NavItem href="#section-about" text="關於我們" />
-                    <NavItem text="所有商品" />
-                    <NavItem text="賣家上傳" />
-                    <NavItem text="Sign up" />
+                    <NavItem href="/#section-about" text="關於我們" />
+                    <NavItem href="/AllItems" text="所有商品" />
+                    <NavItem href="/SellerUpload" text="賣家上傳" />
+                    <NavItem href="/SignUp" text="Sign up" />
                     <NavItem text="Log in" />
                 </NavBtnList>
             </div>

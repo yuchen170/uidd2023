@@ -7,7 +7,7 @@ const Card = ({ item }) => {
 
     return (
         <>
-
+        <a href = '/1' style={{ textDecoration: "none" }}>
             <CardContainer>
                 <TopContainer>
                     <TopWrap>
@@ -16,7 +16,7 @@ const Card = ({ item }) => {
                             <Owner>{item.owner}</Owner>
                         </TextWrap>
                         <ImageContainer>
-                            <Image src={item.img} alt="" layout="fill" objectFit= "cover"  style={{ borderRadius: "10%" }} />
+                            <Image src={item.img[0]} alt="" layout="fill" objectFit="cover" style={{ borderRadius: "10%" }} />
                         </ImageContainer>
                     </TopWrap>
                 </TopContainer>
@@ -24,13 +24,12 @@ const Card = ({ item }) => {
                     <Text>了解更多</Text>
                     <Line></Line>
                     <InformationWrap>
-                        <Text style={{alignSelf:"flex-end"}}>{item.city}</Text>
-                        <Text style={{alignSelf:"flex-end"}}>希望開價 ${item.price}</Text>
+                        <Text style={{ alignSelf: "flex-end" }}>{item.city}</Text>
+                        <Text style={{ alignSelf: "flex-end" }}>租借價格 ${item.price} /月</Text>
                     </InformationWrap>
                 </BottomWrap>
-
             </CardContainer>
-
+            </a>
         </>
     )
 }
